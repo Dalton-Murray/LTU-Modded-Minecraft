@@ -266,4 +266,10 @@ recipes.addShaped(<tconstruct:rack>.withTag({textureBlock: {id: "minecraft:woode
 	]
 );
 
+	#Applied Energistics 2 Creative Energy Cell
+recipes.addShaped(<appliedenergistics2:creative_energy_cell>, [[<avaritia:block_resource:1>, null, <avaritia:block_resource:1>],[null, <draconicevolution:reactor_core>, null], [<avaritia:block_resource:1>, null, <avaritia:block_resource:1>]]);
+
+	#Tinkers' Construct Creative Modifier
+recipes.addShaped(<tconstruct:materials:50>, [[<extrautils2:ingredients:17>, <extrautils2:unstableingots>, <extrautils2:ingredients:17>],[<extrautils2:unstableingots>, <minecraft:skull:*>, <extrautils2:unstableingots>], [<extrautils2:ingredients:17>, <extrautils2:unstableingots>, <extrautils2:ingredients:17>]]);
+
 print("Initialized 'recipe_changes.zs'");
